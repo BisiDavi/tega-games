@@ -12,11 +12,21 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="/css/index.css" />
+        <link rel="stylesheet" href="/font/stylesheet.css" />
         <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row vh-100 w-100">
+            <div class="row vh-100 w-100 mx-auto">
                 <div class="col-12">
                     <div
                         style="
@@ -27,10 +37,66 @@
                     >
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="profile"></div>
+                                <div
+                                    class="
+                                        profile
+                                        content
+                                        row
+                                        mx-auto
+                                        align-items-start
+                                    "
+                                >
+                                    <div class="content-profile col-lg-5">
+                                        <img
+                                            src="https://swiperjs.com/demos/images/nature-1.jpg"
+                                        />
+                                    </div>
+                                    <div class="content-bio col-lg-7">
+                                        <h1>ABOUT ME (199X)</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur, adipisicing elit.
+                                            Delectus nisi error assumenda ipsa
+                                            ducimus laborum amet. Ipsam quas
+                                            quidem autem?
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Animi
+                                            voluptatibus quis ex incidunt
+                                            deserunt molestiae officiis, harum
+                                            vel eveniet reiciendis?
+                                        </p>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet
+                                            consectetur adipisicing elit.
+                                            Voluptatum porro libero delectus
+                                            quidem neque architecto, aperiam
+                                            eligendi optio laborum molestiae?
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="home-page"></div>
+                                <div class="home-page content row mx-auto">
+                                    <div class="col-6 mx-auto">
+                                        <h1>GAME & LEVEL DESIGNER</h1>
+                                        <p>... and particle wizard.</p>
+
+                                        <h6 class="bio-description">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Eius
+                                            quod voluptates aliquid suscipit at
+                                            iste id similique voluptas mollitia
+                                            vitae accusamus ab modi error, aut
+                                            sapiente neque iure. Saepe nostrum
+                                            quam eligendi dolorem praesentium.
+                                            Eaque quia veniam dolorum obcaecati
+                                            at ea non quidem soluta, odio ipsum
+                                            dignissimos recusandae id laborum!
+                                        </h6>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="content row mx-auto">
@@ -256,10 +322,8 @@
                                     src="https://swiperjs.com/demos/images/nature-1.jpg"
                                 />
                             </div>
-                            <div class="swiper-slide">
-                                <img
-                                    src="https://swiperjs.com/demos/images/nature-2.jpg"
-                                />
+                            <div class="swiper-slide icon">
+                                <i class="fas fa-home"></i>
                             </div>
                             <div class="swiper-slide">
                                 <img
@@ -346,7 +410,6 @@
             var swiper = new Swiper('.mySwiper', {
                 spaceBetween: 10,
                 slidesPerView: 16,
-                freeMode: true,
                 watchSlidesVisibility: true,
                 watchSlidesProgress: true,
             });
