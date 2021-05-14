@@ -125,3 +125,14 @@ body {
     align-items: center;
     padding: 0px 100px;
 }
+
+.content-video.col-lg-8 img {
+    border-radius: 10px;
+}
+
+.swiper-button-next {
+    color: black;
+}
+.swiper-button-prev {
+    color: black;
+}
