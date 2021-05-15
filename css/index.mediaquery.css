@@ -89,6 +89,17 @@
     nav {
         display: none;
     }
+    .show-mobile {
+        height: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px auto;
+    }
+    div#menuToggle h1 {
+        font-style: italic;
+    }
     .nav-container {
         height: 10vh;
     }
