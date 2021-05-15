@@ -89,7 +89,7 @@ body {
 /* custom css code */
 /* swiper thumbnails */
 div#thumbnail-slide {
-    margin: 0px 10px;
+    margin: 0px;
     align-items: center;
 }
 
@@ -172,6 +172,19 @@ h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.home-page .site-icon a {
+    font-size: 40px;
+    margin: 0px 10px;
+}
+
+.site-icon a:first-child {
+    color: #2867b2;
+}
+
+.site-icon a:last-child {
+    color: #4267b2;
+}
+
 /* home-page */
 .home-page.content.row h1 {
     font-size: 55pt;
@@ -202,4 +215,115 @@ h6.bio-description {
     font-size: 1.2em;
     text-align: center;
     letter-spacing: 0.003em;
+}
+
+/* tags */
+.gamedesign {
+    background-color: #7c334b;
+    content: 'Game Design';
+}
+
+.design {
+    background-color: #a63661;
+    content: 'Level Design';
+}
+
+.code {
+    background-color: #492e34;
+    content: 'Script';
+}
+
+.vfx {
+    background-color: #c83456;
+    content: 'VFX';
+}
+
+.label {
+    border-radius: 4px;
+    font-family: Helvetica;
+    font-size: 0.9em;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    line-height: normal;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: inline-block;
+    margin-bottom: 0.3em;
+    margin-right: 0.3em;
+}
+
+.game-tags p {
+    color: white;
+    border-radius: 4px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: normal;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: inline-block;
+    margin-bottom: 0.3em;
+    margin-right: 10px;
+}
+
+.game-tags {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.content-text h3 {
+    text-align: left;
+}
+
+.content-text ul {
+    font-weight: bold;
+    text-align: left;
+}
+
+.content-bio p {
+    font-family: 'Open sans', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.content-text p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.content-text ul li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav */
+nav li a {
+    text-decoration: none;
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+    color: #2e313a;
+}
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 50px auto 0px auto;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0px 20px;
+    font-size: 20px;
+    font-family: 'Open sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.col-12.nav-container {
+    height: 50px;
+    margin: 0px;
 }
