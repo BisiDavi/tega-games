@@ -117,11 +117,9 @@
     .content.row.mx-auto {
         padding: 0px 40px;
     }
-    .content-video {
-        height: 30vh;
-    }
+
     .content-profile img {
-        height: 35vh;
+        height: 250px;
         width: 100%;
     }
     .mySwiper2 {
@@ -163,6 +161,7 @@
     .swiper-wrapper .swiper-slide {
         height: 100vh;
         width: 100%;
+        padding-top: 50px;
     }
     div#swiper-wrapper-c87a81cd23c86c96 {
         display: flex;
@@ -182,7 +181,6 @@
         flex-direction: column;
         width: 100%;
         height: 100%;
-        padding-top: 50px;
     }
     /* menu */
     #menuToggle span {
@@ -223,7 +221,12 @@
         z-index: 2; /* and place it over the hamburger */
         -webkit-touch-callout: none;
     }
-
+    .content.row.mx-auto {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
     .content-bio {
         padding: 0px;
         margin-top: 0px;
@@ -273,18 +276,16 @@
 }
 
 @media (max-width: 500px) {
-    .content.row.mx-auto {
-        padding: 0px;
-    }
     .content-profile img {
-        height: 100%;
+        height: 250px;
         width: 100%;
     }
     .home-page.content.row h1 {
         font-size: 30px;
     }
     .content-video {
-        height: 25vh;
+        height: 250px;
+        margin-bottom: 20px;
     }
     .content-bio p {
         font-size: 16px;
@@ -302,5 +303,11 @@
     }
     .mx-auto.site-icon i {
         font-size: 25px;
+    }
+    .content.row.mx-auto {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
     }
 }
