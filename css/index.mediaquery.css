@@ -174,7 +174,6 @@
         flex-direction: column;
         height: 100%;
         margin-top: 0px;
-        overflow: unset;
     }
 
     .page-content {
@@ -285,6 +284,12 @@
     .content-profile {
         padding: unset;
         height: 250px;
+    }
+    .page-content .control {
+        display: none;
+    }
+    span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background-color: blue;
     }
     .home-page.content.row h1 {
         font-size: 30px;
