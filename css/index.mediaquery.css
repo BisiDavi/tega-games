@@ -344,7 +344,7 @@
 }
 @media (max-width: 360px) {
     .content-video {
-        height: 150px;
+        height: 120px;
         margin: 30px 0px 10px 0px;
     }
     .content-text h3 {
