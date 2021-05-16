@@ -150,6 +150,15 @@
         flex-direction: column;
     }
 
+    .page-content .swiper-slide .home-page.content {
+        height: fit-content;
+        margin: auto;
+    }
+
+    .home-page p {
+        margin-bottom: 50px;
+    }
+
     .col-12.nav-container {
         height: 50px;
         margin: 0px;
@@ -330,7 +339,7 @@
         justify-content: start;
     }
 }
-@media (min-width: 360px) {
+@media (max-width: 360px) {
     .content-video {
         height: 150px;
         margin: 20px 0;
