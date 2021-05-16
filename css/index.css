@@ -376,3 +376,42 @@ main.container-fluid {
     height: 100%;
     width: 100%;
 }
+
+/* to top arrow */
+.to-top {
+    color: white;
+    padding-top: 1.8em;
+    display: inline-block; /* or block */
+    position: relative;
+    border-color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+    position: fixed;
+    right: 50px;
+    font-size: 30px;
+    z-index: 20;
+    bottom: 10px;
+}
+.to-top:before {
+    content: '▲';
+    font-size: 0.9em;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -0.7em;
+    border: solid 0.13em white;
+    border-radius: 10em;
+    width: 1.4em;
+    height: 1.4em;
+    line-height: 25px;
+    padding-left: 2.5px;
+    border-color: inherit;
+    transition: transform 0.5s ease-in;
+}
+.to-top:hover {
+    color: pink;
+    border-color: pink;
+}
+.to-top:hover:before {
+    transform: rotate(360deg);
+}
