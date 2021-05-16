@@ -165,7 +165,10 @@
         position: fixed;
         z-index: 10;
     }
-
+    .content-text p {
+        font-size: 16px;
+        padding: 5px;
+    }
     .swiper-slide .content.row {
         align-items: flex-start;
         justify-content: center;
@@ -343,6 +346,42 @@
     .content-video {
         height: 150px;
         margin: 20px 0;
+    }
+    .content-text h3 {
+        font-size: 18px;
+    }
+    .content-text p {
+        font-size: 14px;
+        padding: 5px;
+    }
+    .game-tags {
+        margin: 0px;
+    }
+    .content-text ul li {
+        font-size: 14px;
+    }
+
+    .content-bio h1 {
+        font-size: 20px;
+    }
+    .content-bio p {
+        font-size: 14px;
+    }
+
+    .content-profile,
+    .content-profile img {
+        height: 180px;
+    }
+
+    h6.bio-description {
+        font-size: 14px;
+    }
+    .home-page.content.row h1 {
+        font-size: 30px;
+    }
+
+    .home-page p {
+        margin-bottom: 30px;
     }
 }
 
