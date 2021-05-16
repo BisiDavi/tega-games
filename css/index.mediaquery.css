@@ -353,6 +353,9 @@
     .content-text h3 {
         font-size: 18px;
     }
+    .game-profile.content {
+        padding-top: 30px;
+    }
     .home-page .col-lg-6 {
         padding-top: 0px;
     }
