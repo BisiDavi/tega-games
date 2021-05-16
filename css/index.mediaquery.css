@@ -123,8 +123,9 @@
         width: 100%;
     }
     .mySwiper2 {
-        height: 40%;
+        height: 100%;
         width: 100%;
+        margin-top: 0px;
     }
     .mySwiper #thumbnail-slide.thumbnail-slide .swiper-slide {
         height: 150px;
@@ -141,9 +142,7 @@
     }
     .swiper-wrapper {
         margin-top: 0px;
-        display: flex;
         flex-direction: column;
-        height: 100%;
     }
 
     .col-12.nav-container {
@@ -157,6 +156,7 @@
         align-items: flex-start;
         justify-content: center;
         height: 100%;
+        margin: 0px;
     }
     .swiper-wrapper .swiper-slide {
         height: 100vh;
@@ -173,14 +173,12 @@
         display: flex;
         flex-direction: column;
         height: 100%;
+        margin-top: 0px;
     }
 
     .page-content {
-        position: relative;
         display: flex;
         flex-direction: column;
-        width: 100%;
-        height: 100%;
     }
     /* menu */
     #menuToggle span {
@@ -228,11 +226,8 @@
         justify-content: start;
     }
     .content-bio {
-        padding: 0px;
-        margin-top: 0px;
-    }
-
-    .content-profile {
+        margin: 0px;
+        margin-top: 20px;
         padding: 0px;
     }
 
@@ -280,6 +275,17 @@
         height: 250px;
         width: 100%;
     }
+    .profile.content.row {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 100%;
+    }
+    .content-profile {
+        padding: unset;
+        height: 250px;
+    }
     .home-page.content.row h1 {
         font-size: 30px;
     }
@@ -293,10 +299,7 @@
     .mySwiper #thumbnail-slide.thumbnail-slide .swiper-slide {
         height: 10vh;
     }
-    .mySwiper2 {
-        height: 78%;
-        width: 100%;
-    }
+
     h6.bio-description {
         font-size: 16px;
         line-height: 28px;

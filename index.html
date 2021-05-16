@@ -772,28 +772,12 @@
             var swiper = new Swiper('.mySwiper', {
                 spaceBetween: 10,
                 slidesPerView: 16,
+                noSwiping: true,
                 watchSlidesVisibility: true,
                 watchSlidesProgress: true,
                 breakpoints: {
-                    320: {
-                        slidesPerView: 3,
-                        spaceBetween: 5,
-                    },
-                    360: {
-                        slidesPerView: 3,
-                        spaceBetween: 10,
-                    },
-                    460: {
-                        slidesPerView: 3,
-                        spaceBetween: 15,
-                    },
-                    640: {
-                        slidesPerView: 3,
-                        spaceBetween: 20,
-                    },
                     768: {
-                        slidesPerView: 4,
-                        spaceBetween: 30,
+                        noSwiping: false,
                     },
 
                     850: {
@@ -817,14 +801,17 @@
                 },
             });
             var swiper2 = new Swiper('.mySwiper2', {
-                spaceBetween: 10,
-                460: {
-                    slidesPerView: 1,
-                    spaceBetween: 10,
-                },
-                768: {
-                    slidesPerView: 1,
-                    spaceBetween: 10,
+                slidesPerView: 1,
+                cssMode: false,
+                noSwiping: true,
+                breakpoints: {
+                    768: {
+                        slidesPerView: 1,
+                        enabled: true,
+                    },
+                    320: {
+                        enabled: false,
+                    },
                 },
                 navigation: {
                     nextEl: '.swiper-button-next',
