@@ -415,3 +415,7 @@ main.container-fluid {
 .to-top:hover:before {
     transform: rotate(360deg);
 }
+
+.content-text.col-lg-4 ul li {
+    list-style: none;
+}
