@@ -98,13 +98,13 @@
         position: fixed;
         left: 0px;
         z-index: 10;
-        background-color: gray;
+        background-color: black;
         padding: 20px 20px;
     }
 
     div#menuToggle h1 {
         font-style: italic;
-        color: #7c334b;
+        color: white;
         font-size: 30px;
         margin-bottom: 0px;
         font-weight: 500;
@@ -184,6 +184,7 @@
     .page-content {
         display: flex;
         flex-direction: column;
+        padding: 0px;
     }
     /* menu */
     #menuToggle span {
@@ -192,14 +193,10 @@
         height: 4px;
         margin-bottom: 5px;
         position: relative;
-
-        background: #cdcdcd;
+        background: white;
         border-radius: 3px;
-
         z-index: 1;
-
         transform-origin: 4px 0px;
-
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
             background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
     }
@@ -229,6 +226,7 @@
         display: flex;
         flex-direction: column;
         justify-content: start;
+        height: 100vh;
     }
     .content-bio {
         margin: 0px;
@@ -273,6 +271,17 @@
     #menuToggle input:checked ~ ul {
         transform: none;
     }
+    .content-text h3 {
+        font-size: 20px;
+    }
+
+    .game-tags p {
+        padding: 10px;
+    }
+
+    .home-page .col-lg-6 {
+        padding-top: 40px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -301,7 +310,7 @@
     }
     .content-video {
         height: 200px;
-        margin-bottom: 20px;
+        margin: 20px 0;
     }
     .content-bio p {
         font-size: 16px;
@@ -319,6 +328,12 @@
         display: flex;
         flex-direction: column;
         justify-content: start;
+    }
+}
+@media (min-width: 360px) {
+    .content-video {
+        height: 150px;
+        margin: 20px 0;
     }
 }
 
