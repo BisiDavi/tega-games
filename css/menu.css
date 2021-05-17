@@ -145,6 +145,7 @@
     margin: 0;
     position: fixed;
     top: 40px;
+    display: none;
     left: 0;
     transition: opacity 0.25s ease;
     opacity: 0;
