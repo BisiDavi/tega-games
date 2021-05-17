@@ -12,7 +12,11 @@ const showMenu = () => {
 menuButton.addEventListener('click', () => {
     mobileMenu.classList.toggle('active');
     let menuList = !menuState;
-    if (menuList) subMenu.style.display = 'block';
+    if (menuList) {
+        subMenu.style.display = 'block';
+    } else {
+        subMenu.style.display = 'none';
+    }
 });
 
 closeMenu.addEventListener('click', () => {
