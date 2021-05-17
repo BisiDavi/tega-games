@@ -11,8 +11,7 @@ const showMenu = () => {
 
 menuButton.addEventListener('click', () => {
     mobileMenu.classList.toggle('active');
-    let menuList = !menuState;
-    if (menuList) {
+    if (mobileMenu.classList.contains('active')) {
         subMenu.style.display = 'block';
     } else {
         subMenu.style.display = 'none';
