@@ -134,6 +134,7 @@
 .menuText:hover b {
     opacity: 1;
 }
+
 .sub-menu {
     font-size: 20px;
     font-weight: 300;
@@ -146,6 +147,7 @@
     position: fixed;
     top: 40px;
     display: none;
+    height: 100%;
     left: 0;
     transition: opacity 0.25s ease;
     opacity: 0;
@@ -181,4 +183,11 @@
 }
 li.closemenu {
     height: 20vh;
+}
+
+@media (max-width: 360px) {
+    .sub-menu li {
+        line-height: 50px;
+        border-bottom: 1px solid white;
+    }
 }
